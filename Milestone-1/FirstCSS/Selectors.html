@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        p{
+            color: rebeccapurple;
+        }
+        #aamon, li{
+            font-size: 26px;
+        }
+        .hanzo{
+            background-color: yellow;
+        }
+        .hayabusa{
+            font-weight: bolder;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        .cssf{
+            color: aqua;
+        }
+        .nice{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explorer mixed selectors</h3>
+    <p>my first line CSS</p>
+    <p class="hanzo">my second <span class="cssf">line CSS</span></p>
+    <p>my third line CSS</p>
+    <p class="hanzo hayabusa">my fourth line CSS</p><!--2 ta class eksathe use korechi-->
+    <p class="hanzo" id="aamon">my fifth line CSS</p>
+    <p class="hayabusa">my sixth line CSS</p>
+    <p>my seven line CSS</p>
+    <ol>
+        <li>element</li>
+        <li>ID selector</li>
+        <li class="hayabusa hanzo">class selector</li>
+        <li>univarsal</li>
+    </ol>
+
+    <div class="nice">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi quibusdam sed saepe, quisquam illo ipsam provident quae eum aperiam molestias iure doloremque, molestiae amet sapiente deleniti quia laudantium perspiciatis.</p>
+    </div>
+
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+</body>
+</html>
